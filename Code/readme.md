@@ -13,7 +13,7 @@
 * `WienerFilter.m`: This function performs the calculation of the W parameters from an input signal.
 
 ### Numerical Model (OpenSeesPy scripts)
-* `3Stories2Bays_NumericalModel`: 
+* `3Stories2Bays_NumericalModel`: This file contains all the modeling of the numeric substructure. Additionally, it contains the necessary configurations to open and close the communication channels and define the model as a server.
 * `elcentro_0.02.txt`: Text file containing El Centro's 1940 seismic record. This file is read by the numeric substructure model in OpenSees (SubEstNum). In case another seismic record wants to be used, you just have to create the text file and modify the name in the model in OpenSees by the name of the new file. You must know the time spacing of the record and the amount of data to perform enough integration steps to include the entire record.
 
 ### Post Processing

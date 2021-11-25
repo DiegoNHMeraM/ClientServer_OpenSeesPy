@@ -24,7 +24,7 @@ For the execution of this model, the following instructions must be followed.
 
 ### Simulation
 
-Below is an image of the implementation in simulink. This image corresponds to the file OpenSeesPy_Raspberry. Although it is appreciated that the interconnections between the actors are simple, within these subsystems we worked with Goto and From blocks to send and receive signals. In this way, Simulink is seen to be cleaner, without so much connection by arrows.
+Below is an image of the implementation in simulink. This image corresponds to the file `OpenSeesPy_Raspberry`. Although it is appreciated that the interconnections between the actors are simple, within these subsystems we worked with Goto and From blocks to send and receive signals. In this way, Simulink is seen to be cleaner, without so much connection by arrows.
 
 A short description of each subsystem can be seen next here:
 
@@ -37,13 +37,13 @@ A short description of each subsystem can be seen next here:
 
 <img src="Figures/Imp.png" alt="Reference Structure" width="800"/>
 
-Before running, the Simulink model must be open, the address in Matlab must match the address where this file is located since to start it calls a function called "initializeSimulation".
+Before running, the Simulink model must be open, the address in Matlab must match the address where this file is located since to start it calls a function called `initializeSimulation.m`.
 
 1. In the address bar of the file explorer where the numerical model is located, type the command CMD and press Enter. This will directly open a CMD window in the folder location that was open in explorer. For this example, write:
-	* 3Stories2Bays_NumericalModel.py
+	* `3Stories2Bays_NumericalModel.py`
 	* When executed, it will display the message 'Waiting for Simulink to start'
 	* If you are having trouble running python files, you can do an internet search for running python files in cmd.
-2. Run the Simulink model, the variables will be loaded, and the simulation will run.
+2. Run the Simulink model `OpenSeesPy_Raspberry.slx`, the variables will be loaded, and the simulation will run.
 
 ### Post-processing
 

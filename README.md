@@ -9,7 +9,8 @@ It is important to mention that these substructures, numerical and experimental,
 <img src="Figures/Subestructures.png" alt="Reference Structure" width="800"/>
 
 ## How to cite
-Mera, D., & Fermandois, G. (2022). 
+Mera, D., & Fermandois, G. (2022). "Client-Server coordination of multi-rate tasks in real-time hybrid
+simulation testing." https://zenodo.org/badge/latestdoi/431621234.
 
 ## Requirements
 

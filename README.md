@@ -10,7 +10,7 @@ It is important to mention that these substructures, numerical and experimental,
 
 ## How to cite
 Mera, D., & Fermandois, G. (2022). "Client-Server coordination of multi-rate tasks in real-time hybrid
-simulation testing." https://zenodo.org/badge/latestdoi/431621234.
+simulation testing." https://doi.org/10.5281/zenodo.5750785.
 
 ## Requirements
 
